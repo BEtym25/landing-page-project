@@ -1,0 +1,125 @@
+body {
+  font-family: "Roboto", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.header-container {
+  background-color: #1f2937;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-links-container {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 100px 0 100px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #f9faf8;
+  padding-top: 15px;
+}
+
+.links {
+  list-style-type: none;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+li {
+  display: inline;
+  margin: 5px;
+}
+.text-img-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 100px 50px 100px;
+}
+
+.hero-text-container {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  margin-bottom: 30px;
+}
+
+.header-subtext {
+  font-size: 18px;
+  color: #e5e7eb;
+  text-align: left;
+  margin-top: -30px;
+  margin-bottom: 10px;
+}
+
+.hero-text {
+  font-size: 48px;
+  font-weight: 800;
+  color: #f9faf8;
+}
+
+.header-img {
+  width: 350px;
+  height: 180px;
+  background-color: gray;
+  text-align: center;
+  line-height: 180px;
+}
+
+.sign-up {
+  background-color: #3882f6;
+  font-weight: bold;
+  font-size: 14px;
+  color: white;
+  border: 0;
+  border-radius: 10px;
+  padding: 10px 25px;
+  align-self: flex-start;
+}
+/* MAIN ELEMENTS START HERE */
+
+.main-container {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.sub-header {
+  font-size: 36px;
+  font-weight: 800;
+  color: #1f2937;
+}
+
+.main-img-and-txt-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.img-container > img {
+  border-radius: 25%;
+  border: 5px solid red;
+}
+
+.img-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer {
+  background-color: #1f2937;
+  color: #b4b4b4;
+  text-align: center;
+  justify-content: center;
+  padding: 20px;
+}
