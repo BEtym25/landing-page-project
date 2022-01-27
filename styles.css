@@ -5,13 +5,11 @@ body {
   flex-direction: column;
   margin: 0;
 }
-
 .header-container {
   background-color: #1f2937;
   display: flex;
   flex-direction: column;
 }
-
 .logo-links-container {
   background-color: #1f2937;
   display: flex;
@@ -19,14 +17,12 @@ body {
   flex-wrap: wrap;
   margin: 0 100px 0 100px;
 }
-
 .logo {
   font-size: 24px;
   font-weight: bold;
   color: #f9faf8;
   padding-top: 15px;
 }
-
 .links {
   list-style-type: none;
   font-size: 18px;
@@ -42,14 +38,12 @@ li {
   align-items: center;
   margin: 50px 100px 50px 100px;
 }
-
 .hero-text-container {
   display: flex;
   flex-direction: column;
   width: 450px;
   margin-bottom: 30px;
 }
-
 .header-subtext {
   font-size: 18px;
   color: #e5e7eb;
@@ -57,13 +51,11 @@ li {
   margin-top: -30px;
   margin-bottom: 10px;
 }
-
 .hero-text {
   font-size: 48px;
   font-weight: 800;
   color: #f9faf8;
 }
-
 .header-img {
   width: 350px;
   height: 180px;
@@ -71,7 +63,6 @@ li {
   text-align: center;
   line-height: 180px;
 }
-
 .sign-up {
   background-color: #3882f6;
   font-weight: bold;
@@ -90,30 +81,72 @@ li {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 50px;
+  margin: 10px 0 50px 0;
 }
 .sub-header {
   font-size: 36px;
   font-weight: 800;
   color: #1f2937;
 }
-
 .main-img-and-txt-container {
   display: flex;
   flex-direction: row;
-  gap: 20px;
+  gap: 40px;
+  flex-wrap: wrap;
 }
-
 .img-container > img {
   border-radius: 25%;
   border: 5px solid red;
 }
-
+.img-container > p {
+  max-width: 200px;
+  text-align: center;
+}
 .img-container {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+/* MAIN 2 (QOUTE SECTION+C2A) STARTS HERE */
+
+.main2 {
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 300;
+  color: #1f2937;
+  margin-top: 100px;
+}
+.author {
+  margin-left: 1020px;
+  margin-bottom: 100px;
+  margin-top: -10px;
+  font-size: 24px;
   flex-wrap: wrap;
+}
+.c2a-container {
+  display: flex;
+  background-color: #3882f6;
+  font-size: 20px;
+  color: white;
+  border-radius: 5px;
+  padding: 0 90px; 5px 90px;
+  align-self: center;
+  align-items: center;
+  margin: 50px 0 50px 0;
+}
+.c2a {
+  font-weight: bold;
+  margin-bottom: -10px;
+}
+.c2a-subtext {
+  font-weight: 300;
 }
 
 .footer {
@@ -122,4 +155,9 @@ li {
   text-align: center;
   justify-content: center;
   padding: 20px;
+}
+.fa-3x {
+  text-decoration: none;
+  color: black;
+  margin-left: 50px;
 }
